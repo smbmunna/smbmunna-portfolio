@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const Download = () => {
     const handleDownload = () => {
         // Provide the correct relative path to your PDF file
-        const pdfUrl = './resume.pdf';
+        const pdfUrl = '/resume-2026.pdf';
 
         // Create a link element
         const link = document.createElement('a');
@@ -12,7 +12,7 @@ const Download = () => {
         link.target = '_self';
 
         // Set the download attribute with the desired file name
-        link.download = 'Sheikh_Mahmud_Boksho_Munna_Resume.pdf';
+        link.download = 'resume-2026.pdf';
 
         // Append the link to the document body
         document.body.appendChild(link);
